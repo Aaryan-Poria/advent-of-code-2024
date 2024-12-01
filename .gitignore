@@ -1,2 +1,5 @@
-*.txt
-.vscode
+*
+!*.cpp
+!*.py
+!.gitignore
+!*./
