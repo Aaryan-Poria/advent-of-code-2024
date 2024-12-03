@@ -25,8 +25,11 @@ void solve()
     while (cin.get(c))
         s += c;
     s += "################"; // Add extra characters to avoid overflow
-    // cout << s << '\n';
+
     int answer = 0;
+
+    // For part-1, no need to check enable
+
     bool enable = true;
     for (int i = 0; i < s.size(); ++i)
     {
